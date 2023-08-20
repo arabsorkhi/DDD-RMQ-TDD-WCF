@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00.Framework\Framework.Domain\CBSD.Framework.Domain.csproj" />
+    <ProjectReference Include="..\CBSD.SellerContext.Core.Domain\CBSD.Seller.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
