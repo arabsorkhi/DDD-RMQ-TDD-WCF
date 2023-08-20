@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/00.Framework
+/03.EndPoints/CBSD.Seller.EndPoints.API/obj/Debug/net7.0
+/.vs
