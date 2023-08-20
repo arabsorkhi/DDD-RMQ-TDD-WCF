@@ -5,3 +5,6 @@
 /00.Framework
 /03.EndPoints/CBSD.Seller.EndPoints.API/obj/Debug/net7.0
 /.vs
+/02.Infra
+/03.EndPoints/CBSD.Seller.EndPoints.API
+/01.Core
