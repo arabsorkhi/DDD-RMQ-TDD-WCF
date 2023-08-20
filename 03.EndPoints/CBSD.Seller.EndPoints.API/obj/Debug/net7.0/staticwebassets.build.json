@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jQT0cqAp2YEck4tzfmiD12PLD4kFcECDrbCkSO0RsNM=",
+  "Source": "CBSD.Seller.EndPoints.API",
+  "BasePath": "_content/CBSD.Seller.EndPoints.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

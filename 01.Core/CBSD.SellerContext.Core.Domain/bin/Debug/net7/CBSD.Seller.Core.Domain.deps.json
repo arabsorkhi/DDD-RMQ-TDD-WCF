@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CBSD.Seller.Core.Domain/1.0.0": {
+        "dependencies": {
+          "CBSD.Framework.Domain": "1.0.0",
+          "CBSD.Framwork.Tools": "1.0.0"
+        },
+        "runtime": {
+          "CBSD.Seller.Core.Domain.dll": {}
+        }
+      },
+      "CBSD.Framework.Domain/1.0.0": {
+        "runtime": {
+          "CBSD.Framework.Domain.dll": {}
+        }
+      },
+      "CBSD.Framwork.Tools/1.0.0": {
+        "runtime": {
+          "CBSD.Framwork.Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CBSD.Seller.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CBSD.Framework.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CBSD.Framwork.Tools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RMS.Seller.EndPoints.API.props" />
+</Project>

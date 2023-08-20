@@ -1,0 +1,12 @@
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\obj\Debug\net7.0\CBSD.Framwork.Tools.csproj.AssemblyReference.cache
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\obj\Debug\net7.0\CBSD.Framwork.Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\obj\Debug\net7.0\CBSD.Framwork.Tools.AssemblyInfoInputs.cache
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\obj\Debug\net7.0\CBSD.Framwork.Tools.AssemblyInfo.cs
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\obj\Debug\net7.0\CBSD.Framwork.Tools.csproj.CoreCompileInputs.cache
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\bin\Debug\net7.0\CBSD.Framwork.Tools.deps.json
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\bin\Debug\net7.0\CBSD.Framwork.Tools.dll
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\bin\Debug\net7.0\CBSD.Framwork.Tools.pdb
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\obj\Debug\net7.0\CBSD.Framwork.Tools.dll
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\obj\Debug\net7.0\refint\CBSD.Framwork.Tools.dll
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\obj\Debug\net7.0\CBSD.Framwork.Tools.pdb
+D:\MyWork\CBSD\00.Framework\Framwork.Tools\obj\Debug\net7.0\ref\CBSD.Framwork.Tools.dll

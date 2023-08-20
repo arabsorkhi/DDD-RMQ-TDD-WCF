@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyWork\\CBSD\\02.Infra\\CBSD.Seller.Infra.Data.InMemory\\CBSD.Seller.Infra.Data.InMemory.csproj": {}
+  },
+  "projects": {
+    "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
+        "projectName": "CBSD.Framework.Domain",
+        "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj",
+        "projectName": "CBSD.Framwork.Tools",
+        "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj",
+        "projectName": "CBSD.Seller.Core.Domain",
+        "projectPath": "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7",
+            "projectReferences": {
+              "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj": {
+                "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framework.Domain\\CBSD.Framework.Domain.csproj"
+              },
+              "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj": {
+                "projectPath": "D:\\MyWork\\CBSD\\00.Framework\\Framwork.Tools\\CBSD.Framwork.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyWork\\CBSD\\02.Infra\\CBSD.Seller.Infra.Data.InMemory\\CBSD.Seller.Infra.Data.InMemory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyWork\\CBSD\\02.Infra\\CBSD.Seller.Infra.Data.InMemory\\CBSD.Seller.Infra.Data.InMemory.csproj",
+        "projectName": "CBSD.Seller.Infra.Data.InMemory",
+        "projectPath": "D:\\MyWork\\CBSD\\02.Infra\\CBSD.Seller.Infra.Data.InMemory\\CBSD.Seller.Infra.Data.InMemory.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\MyWork\\CBSD\\02.Infra\\CBSD.Seller.Infra.Data.InMemory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj": {
+                "projectPath": "D:\\MyWork\\CBSD\\01.Core\\CBSD.SellerContext.Core.Domain\\CBSD.Seller.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

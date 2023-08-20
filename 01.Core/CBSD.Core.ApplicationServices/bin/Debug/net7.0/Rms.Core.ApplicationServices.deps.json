@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Rms.Core.ApplicationServices/1.0.0": {
+        "dependencies": {
+          "Framework.Domain": "1.0.0",
+          "Rms.Seller.Core.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Rms.Core.ApplicationServices.dll": {}
+        }
+      },
+      "Framework.Domain/1.0.0": {
+        "runtime": {
+          "Framework.Domain.dll": {}
+        }
+      },
+      "Framwork.Tools/1.0.0": {
+        "runtime": {
+          "Framwork.Tools.dll": {}
+        }
+      },
+      "Rms.BuildingBlocks.Domain/1.0.0": {
+        "runtime": {
+          "Rms.BuildingBlocks.Domain.dll": {}
+        }
+      },
+      "Rms.Seller.Core.Domain/1.0.0": {
+        "dependencies": {
+          "Framework.Domain": "1.0.0",
+          "Framwork.Tools": "1.0.0",
+          "Rms.BuildingBlocks.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Rms.Seller.Core.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rms.Core.ApplicationServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framwork.Tools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rms.BuildingBlocks.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rms.Seller.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

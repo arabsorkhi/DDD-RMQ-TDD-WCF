@@ -1,0 +1,12 @@
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\bin\Debug\net7.0\Framwork.Tools.deps.json
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\bin\Debug\net7.0\Framwork.Tools.dll
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\bin\Debug\net7.0\Framwork.Tools.pdb
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\obj\Debug\net7.0\Framwork.Tools.csproj.AssemblyReference.cache
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\obj\Debug\net7.0\Framwork.Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\obj\Debug\net7.0\Framwork.Tools.AssemblyInfoInputs.cache
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\obj\Debug\net7.0\Framwork.Tools.AssemblyInfo.cs
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\obj\Debug\net7.0\Framwork.Tools.csproj.CoreCompileInputs.cache
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\obj\Debug\net7.0\Framwork.Tools.dll
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\obj\Debug\net7.0\refint\Framwork.Tools.dll
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\obj\Debug\net7.0\Framwork.Tools.pdb
+D:\MyWork\ResidualManagementSystem\src\Framwork.Tools\obj\Debug\net7.0\ref\Framwork.Tools.dll
