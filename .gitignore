@@ -2,6 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+
 /.vs
 /00.Framework/Framework.Domain/bin/Debug/net7.0
 /00.Framework/Framework.Domain/obj/Release/net7.0
@@ -25,4 +26,6 @@
 /02.Infra/CBSD.Seller.Infra.Data.Sql/obj
 /03.EndPoints/CBSD.Seller.EndPoints.API/bin/Debug/net7.0
 /03.EndPoints/CBSD.Seller.EndPoints.API/obj
-/03.EndPoints/CBSD.Seller.EndPoints.API
+/03.EndPoints/CBSD.Seller.EndPoints.API/obj/Debug/net7.0
+
+
