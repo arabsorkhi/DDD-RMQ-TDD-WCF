@@ -5,23 +5,19 @@ using Framework.Domain.Events;
 using Framework.Domain.Exceptions;
 using Framwork.Tools.Enums;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 
 namespace CBSD.Seller.Core.Domain.Entities
 {
-    public class Product
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-    }
+    
 
     public sealed class Seller : BaseAggregateRoot<Guid>
     {
         #region vo
 
         public Price Price { get; private set; }
-        public Product Product { get; private set; }
-        public int ProductId { get; private set; }
+        public List<Product> Products { get; private set; }
         public SellerStatus Status { get; private set; }
         public NameVO Name { get; internal set; }
         public AddressVO Address { get; internal set; }
@@ -31,6 +27,8 @@ namespace CBSD.Seller.Core.Domain.Entities
         //behaviure: create
         public Seller(UserId id, NameVO sellerName, AddressVO address)
         {
+            Products = new List<Product>();
+
             HandleEvent(new SellerCreated { Id = id, Address = address.FullAddress, Name = sellerName.Value });
         }
 
@@ -41,7 +39,7 @@ namespace CBSD.Seller.Core.Domain.Entities
             HandleEvent(new SellerPriceSet { Id = guid, Price = price.Value });
         }
 
-        public void SetProduct(int productId)
+        public void SetProduct(Guid productId)
         {
             HandleEvent(new SellerProductSet { ProductId = productId });
         }
@@ -51,6 +49,28 @@ namespace CBSD.Seller.Core.Domain.Entities
 
             HandleEvent(new SellerSentReceipt { id = id });
         }
+
+        #region product
+        //nested it needs picture
+        public void AddProduct()
+        {
+            //agg create entity instance
+            var newProduct = new Product(HandleEvent);
+            newProduct.HandleEvent(new ProductAdded
+            {
+                Description = newProduct.Description,
+                Id = newProduct.Id,
+                Name =Name.Value,
+               
+            });
+
+            Products.Add(newProduct);
+
+        }
+        
+
+        #endregion
+
 
 
         protected override void SetStateByEvent(IEvent @event)
@@ -72,8 +92,12 @@ namespace CBSD.Seller.Core.Domain.Entities
                 case SellerSentReceipt e:
                     Status = SellerStatus.Sold;
                     break;
-
-
+                case ProductAdded e:
+                    Id = e.Id;
+                    break;
+                case ProductPictureAdded e:
+                    Status= SellerStatus.Edit;
+                    break;
                 default:
                     throw new InvalidOperationException("امکان اجرای عملیات درخواستی وجود ندارد");
             }
@@ -108,10 +132,12 @@ namespace CBSD.Seller.Core.Domain.Entities
     {
         [Description("جدید")]
         New = 0,
-        selling = 1,
-        RequestforSelling = 2,
-        Waitting = 3,
-        Sold = 4,
+        Edit=1,
+        Waitting = 4,
+        RequestforSelling = 3,
+        selling = 2,
+       
+        Sold = 5,
 
     }
 }

@@ -22,7 +22,7 @@ namespace CBSD.Core.ApplicationServices.Sellers.CommandHandlers
             var seller = _sellerRepository.Load(command.Id);
             if (seller == null)
                 throw new InvalidOperationException($"  شناسه {command.Id} یافت نشد.");
-            seller.SetProduct( command.product.Id );
+            seller.SetProduct( command.Id     );
             _unitOfWork.Commit();
         }
     }

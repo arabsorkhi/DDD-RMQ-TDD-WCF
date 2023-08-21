@@ -1,10 +1,11 @@
 ﻿using Framework.Domain.Events;
+using System;
 
 namespace CBSD.Seller.Core.Domain.Events
 {
     public class SellerProductSet : IEvent
     {
-        public int ProductId { get; set; }
+        public Guid ProductId { get; set; }
 
     }
 }
