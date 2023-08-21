@@ -3,11 +3,11 @@ using System;
 
 namespace CBSD.Seller.Core.Domain.ValueObjects
 {
-    public class ProductName : BaseValueObject<ProductName>
+    public class NameVO : BaseValueObject<NameVO>
     {
         public string Value { get; private set; } = "";
 
-        public static ProductName Create(string name)
+        public static NameVO Create(string name)
         {
             if (string.IsNullOrEmpty(name))
                 throw new ArgumentNullException("name");
@@ -15,7 +15,7 @@ namespace CBSD.Seller.Core.Domain.ValueObjects
             if (name.Length < 2)
                 throw new ArgumentException("name", "must have at least two characters");
 
-            return new ProductName
+            return new NameVO
             {
                 Value = name
             };
@@ -26,7 +26,7 @@ namespace CBSD.Seller.Core.Domain.ValueObjects
             return Value.GetHashCode();
         }
 
-        public override bool ObjectIsEqual(ProductName other)
+        public override bool ObjectIsEqual(NameVO other)
         {
             return ReferenceEquals(this, other) ||
                    Value.Equals(other.Value);
