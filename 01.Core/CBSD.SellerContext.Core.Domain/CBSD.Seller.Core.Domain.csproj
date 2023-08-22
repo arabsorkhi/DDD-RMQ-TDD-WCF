@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net7</TargetFramework>
     <Nullable>enable</Nullable>
+    <GenerateMSbuildeditorConfigFile>$(IntermediateOutputPath)\$(MSBuildProjectName).GeneratedMSBuildEditorConfig.editorconfig</GenerateMSbuildeditorConfigFile>
   </PropertyGroup>
 
   <ItemGroup>
