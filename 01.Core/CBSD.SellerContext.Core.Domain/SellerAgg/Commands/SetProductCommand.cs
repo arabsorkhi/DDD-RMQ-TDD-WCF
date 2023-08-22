@@ -1,6 +1,4 @@
-﻿using CBSD.Seller.Core.Domain.Entities;
-using System;
-using System.Collections.Generic;
+﻿using System;
 
 namespace CBSD.Seller.Core.Domain.SellerAgg.Commands
 {

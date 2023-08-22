@@ -1,6 +1,9 @@
 using CBSD.Core.ApplicationServices.Sellers.CommandHandlers;
+using CBSD.Core.ApplicationServices.UserProfile.CommandHandler;
 using CBSD.Seller.Core.Domain.SellerAgg.Data;
+using CBSD.Seller.Core.Domain.UserProfileAgg.Data;
 using CBSD.Seller.Infra.Data.Sql.Seller;
+using CBSD.Seller.Infra.Data.Sql.UserProfile;
 using Framework.Domain.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,6 +24,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 //builder.Services.AddSingleton<ISellerRepository, InMemorySellerRepository>();
+builder.Services.AddScoped<IUserProfileRepository, EFUserProfileRepository>();
 builder.Services.AddScoped<ISellerRepository, EFSellerRepository>();
 builder.Services.AddScoped<IUnitOfWork , SellerUnitOfWork>();
 builder.Services.AddDbContext<SellerDbContext>(c => c.UseSqlServer(builder.Configuration .GetConnectionString("AddvertismentCnn")));
@@ -28,6 +32,12 @@ builder.Services.AddScoped<CreateHandler>();
 builder.Services.AddScoped<SetPriceHandler>();
 builder.Services.AddScoped<SetProductHandler>();
 builder.Services.AddScoped<SentRecieptHandler>();
+
+
+builder.Services.AddScoped<RegisterUserHandler>();
+builder.Services.AddScoped<UpdateUserNameHandler>();
+builder.Services.AddScoped<UpdateUserEmailHandler>();
+builder.Services.AddScoped<UpdateUserDisplayNameHandler>();
 
 var app = builder.Build();
 

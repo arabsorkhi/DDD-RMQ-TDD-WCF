@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CBSD.Seller.Core.Domain.UserProfileAgg.Entities;
+using System;
 
 namespace CBSD.Seller.Core.Domain.UserProfileAgg.Data
 {
-    public class IUSerProfileRepository
+    public interface IUserProfileRepository
     {
-        UserProfile Load(Guid id);
-        void Add(UserProfile entity);
-        bool Exists(Guid id);
+         UserProfile Load(Guid id);
+         void Add(UserProfile entity);
+         bool Exists(Guid id);
     }
 }
