@@ -1,5 +1,5 @@
-﻿using CBSD.Seller.Core.Domain.Entities;
-using CBSD.Seller.Core.Domain.ValueObjects;
+﻿using CBSD.Seller.Core.Domain.SellerAgg.Entities;
+using CBSD.Seller.Core.Domain.SellerAgg.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

@@ -1,5 +1,4 @@
-﻿
-using CBSD.Seller.Core.Domain.Data;
+﻿using CBSD.Seller.Core.Domain.SellerAgg.Data;
 using Framework.Domain.Data;
 
 namespace CBSD.Seller.Infra.Data.Sql.Seller
@@ -17,12 +16,12 @@ namespace CBSD.Seller.Infra.Data.Sql.Seller
            return _sellerDbContext.Seller.Any(c=>c.Id == id);
         }
 
-        public Core.Domain.Entities.Seller Load(Guid id)
+        public Core.Domain.SellerAgg.Entities.Seller Load(Guid id)
         {
            return _sellerDbContext.Seller.Find(id );
         }
 
-        public void Add(Core.Domain.Entities.Seller entity)
+        public void Add(Core.Domain.SellerAgg.Entities.Seller entity)
         {
              _sellerDbContext.Seller.Add(entity);
         }

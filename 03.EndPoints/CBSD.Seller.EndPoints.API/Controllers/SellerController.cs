@@ -1,10 +1,12 @@
 using CBSD.Core.ApplicationServices.Sellers.CommandHandlers;
-using CBSD.Seller.Core.Domain.Commands;
+using CBSD.Seller.Core.Domain.SellerAgg.Commands;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CBSD.Seller.EndPoints.API.Controllers
 {
-
+    //grasp:cotroller Pattern
+    //Facade pattern
+    //
     [ApiController]
     [Route("[controller]")]
     public class SellerController : ControllerBase

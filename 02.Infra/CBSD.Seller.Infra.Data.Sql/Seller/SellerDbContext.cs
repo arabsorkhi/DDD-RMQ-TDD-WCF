@@ -4,7 +4,7 @@ namespace CBSD.Seller.Infra.Data.Sql.Seller
 {
     public class SellerDbContext:DbContext
     {
-        public DbSet<Core.Domain.Entities.Seller> Seller { get; set; }
+        public DbSet<Core.Domain.SellerAgg.Entities.Seller> Seller { get; set; }
         public SellerDbContext(DbContextOptions dbContextOptions):base(dbContextOptions)  
         {
             
