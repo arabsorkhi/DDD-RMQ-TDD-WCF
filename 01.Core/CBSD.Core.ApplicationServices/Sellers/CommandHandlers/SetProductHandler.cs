@@ -1,7 +1,7 @@
-﻿using CBSD.Seller.Core.Domain.Data;
-using Framework.Domain.ApplicationServices;
+﻿using Framework.Domain.ApplicationServices;
 using Framework.Domain.Data;
-using CBSD.Seller.Core.Domain.Commands;
+using CBSD.Seller.Core.Domain.SellerAgg.Commands;
+using CBSD.Seller.Core.Domain.SellerAgg.Data;
 
 namespace CBSD.Core.ApplicationServices.Sellers.CommandHandlers
 {

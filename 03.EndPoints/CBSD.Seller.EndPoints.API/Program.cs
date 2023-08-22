@@ -1,5 +1,5 @@
 using CBSD.Core.ApplicationServices.Sellers.CommandHandlers;
-using CBSD.Seller.Core.Domain.Data;
+using CBSD.Seller.Core.Domain.SellerAgg.Data;
 using CBSD.Seller.Infra.Data.Sql.Seller;
 using Framework.Domain.Data;
 using Microsoft.EntityFrameworkCore;

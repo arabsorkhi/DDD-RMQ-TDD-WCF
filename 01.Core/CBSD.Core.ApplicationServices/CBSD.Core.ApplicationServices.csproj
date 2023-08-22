@@ -11,4 +11,8 @@
     <ProjectReference Include="..\CBSD.SellerContext.Core.Domain\CBSD.Seller.Core.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UserProfile\" />
+  </ItemGroup>
+
 </Project>

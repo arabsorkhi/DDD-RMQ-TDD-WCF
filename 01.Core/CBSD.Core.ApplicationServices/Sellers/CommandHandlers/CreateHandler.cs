@@ -1,6 +1,6 @@
-﻿using CBSD.Seller.Core.Domain.Commands;
-using CBSD.Seller.Core.Domain.Data;
-using CBSD.Seller.Core.Domain.ValueObjects;
+﻿using CBSD.Seller.Core.Domain.SellerAgg.Commands;
+using CBSD.Seller.Core.Domain.SellerAgg.Data;
+using CBSD.Seller.Core.Domain.SellerAgg.ValueObjects;
 using Framework.Domain.ApplicationServices;
 using Framework.Domain.Data;
 
