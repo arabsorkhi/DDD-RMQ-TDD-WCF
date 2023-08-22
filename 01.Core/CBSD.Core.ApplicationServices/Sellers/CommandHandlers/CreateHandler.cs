@@ -21,7 +21,7 @@ namespace CBSD.Core.ApplicationServices.Sellers.CommandHandlers
             if (_sellerRepository.Exists(command.Id))
                 throw new InvalidOperationException($"قبلا شناسه {command.Id} ثبت شده است.");
 
-            var seller = new  CBSD.Seller.Core.Domain.Entities.Seller(new UserId(command.Id),
+            var seller = new  Seller.Core.Domain.SellerAgg.Entities.Seller(new UserId(command.Id),
                 NameVO.Create(command.Name),AddressVO.Create("",command.Address));
             _sellerRepository.Add(seller );
             _unitOfWork.Commit();

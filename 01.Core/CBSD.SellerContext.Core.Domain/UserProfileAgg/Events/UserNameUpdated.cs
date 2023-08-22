@@ -1,9 +1,5 @@
 ﻿using Framework.Domain.Events;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CBSD.Seller.Core.Domain.UserProfileAgg.Events
 {
@@ -14,4 +10,4 @@ namespace CBSD.Seller.Core.Domain.UserProfileAgg.Events
         public string LastName { get; set; }
     }
 }
-}
+ 
