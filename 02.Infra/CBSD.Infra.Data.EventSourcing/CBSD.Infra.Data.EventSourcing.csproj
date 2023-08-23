@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateMSbuildeditorConfigFile>$(IntermediateOutputPath)\$(MSBuildProjectName).GeneratedMSBuildEditorConfig.editorconfig</GenerateMSbuildeditorConfigFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EventStore.Client" Version="22.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00.Framework\Framework.Domain\CBSD.Framework.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

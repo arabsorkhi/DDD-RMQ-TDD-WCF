@@ -1,4 +1,4 @@
-﻿namespace Framework.Domain.Data
+﻿namespace CBSD.Framework.Domain.Data
 {
     public interface IUnitOfWork
     {

@@ -1,10 +1,12 @@
 using CBSD.Core.ApplicationServices.Sellers.CommandHandlers;
 using CBSD.Core.ApplicationServices.UserProfile.CommandHandler;
+using CBSD.Framework.Domain.Data;
+using CBSD.Infra.Data.EventSourcing;
+using CBSD.Infra.Data.Sql.Seller;
 using CBSD.Seller.Core.Domain.SellerAgg.Data;
 using CBSD.Seller.Core.Domain.UserProfileAgg.Data;
-using CBSD.Seller.Infra.Data.Sql.Seller;
 using CBSD.Seller.Infra.Data.Sql.UserProfile;
-using Framework.Domain.Data;
+using EventStore.ClientAPI;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,6 +25,13 @@ builder.Services.AddSwaggerGen(c =>
         Description = "one of our BCs"
     });
 });
+
+
+var esConnection = EventStoreConnection.Create(builder.Configuration["EventStore:ConnectionString"], ConnectionSettings.Create().KeepReconnecting(), builder.Environment.ApplicationName);
+var store = new CBSDEventStore(esConnection);
+builder.Services.AddSingleton(esConnection);
+builder.Services.AddSingleton<IEventSource>(store);
+
 
 //builder.Services.AddSingleton<ISellerRepository, InMemorySellerRepository>();
 builder.Services.AddScoped<ISellerQueryService,  DapperSellerQueryService>();

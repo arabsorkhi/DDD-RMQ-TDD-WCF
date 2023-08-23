@@ -4,7 +4,7 @@ using CBSD.Seller.Core.Domain.SellerAgg.Queries;
 using Dapper;
 using Microsoft.Data.SqlClient;
 
-namespace CBSD.Seller.Infra.Data.Sql.Seller
+namespace CBSD.Infra.Data.Sql.Seller
 {
     public class DapperSellerQueryService: ISellerQueryService
     {

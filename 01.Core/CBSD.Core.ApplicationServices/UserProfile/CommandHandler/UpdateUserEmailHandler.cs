@@ -1,8 +1,8 @@
-﻿using CBSD.Seller.Core.Domain.Shared.ValueObject;
+﻿using CBSD.Framework.Domain.Data;
+using CBSD.Seller.Core.Domain.Shared.ValueObject;
 using CBSD.Seller.Core.Domain.UserProfileAgg.Command;
 using CBSD.Seller.Core.Domain.UserProfileAgg.Data;
 using Framework.Domain.ApplicationServices;
-using Framework.Domain.Data;
 
 namespace CBSD.Core.ApplicationServices.UserProfile.CommandHandler
 {
