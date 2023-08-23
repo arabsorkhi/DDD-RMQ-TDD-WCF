@@ -29,3 +29,6 @@
 /03.EndPoints/CBSD.Seller.EndPoints.API/obj/Debug/net7.0
 
 
+/02.Infra/CBSD.Infra.Data.EventSourcing/bin/Debug/net7.0
+/02.Infra/CBSD.Infra.Data.EventSourcing/obj/Debug/net7.0
+/02.Infra/CBSD.Infra.Data.EventSourcing/obj
