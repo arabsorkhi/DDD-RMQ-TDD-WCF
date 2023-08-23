@@ -15,7 +15,7 @@ namespace Framework.Domain.Entities
                 _events.Add(@event);
             }
             protected abstract void SetStateByEvent(IEvent @event);
-            public IEnumerable<object> GetEvents() => _events.AsEnumerable();
+            public IEnumerable<IEvent> GetEvents() => _events.AsEnumerable();
             public void ClearEvents() => _events.Clear();
             protected abstract void ValidateInvariants();
 
@@ -33,10 +33,10 @@ namespace Framework.Domain.Entities
                 if (GetType() != other.GetType())
                     return false;
 
-                //if (Id == default || other.Id == default)
-                //    return false;
+            if (Id .Equals( default) || other.Id .Equals( default))
+                return false;
 
-                return Id.Equals(other.Id);
+            return Id.Equals(other.Id);
             }
 
             public static bool operator ==(BaseAggregateRoot<TId> a, BaseAggregateRoot<TId> b)

@@ -3,7 +3,7 @@ using CBSD.Seller.Core.Domain.SellerAgg.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace CBSD.Seller.Infra.Data.Sql.Seller
+namespace CBSD.Infra.Data.Sql.Seller
 {
     public class PictureConfig : IEntityTypeConfiguration<Picture>
     {

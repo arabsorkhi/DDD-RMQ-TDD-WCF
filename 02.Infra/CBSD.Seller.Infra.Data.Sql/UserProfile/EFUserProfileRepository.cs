@@ -1,5 +1,5 @@
-﻿using CBSD.Seller.Core.Domain.UserProfileAgg.Data;
-using CBSD.Seller.Infra.Data.Sql.Seller;
+﻿using CBSD.Infra.Data.Sql.Seller;
+using CBSD.Seller.Core.Domain.UserProfileAgg.Data;
 
 namespace CBSD.Seller.Infra.Data.Sql.UserProfile
 {

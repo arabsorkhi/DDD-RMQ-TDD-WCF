@@ -2,12 +2,12 @@
 using CBSD.Seller.Core.Domain.UserProfileAgg.Data;
 using CBSD.Seller.Core.Domain.UserProfileAgg.ValueObjects;
 using Framework.Domain.ApplicationServices;
-using Framework.Domain.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CBSD.Framework.Domain.Data;
 
 namespace CBSD.Core.ApplicationServices.UserProfile.CommandHandler
 {

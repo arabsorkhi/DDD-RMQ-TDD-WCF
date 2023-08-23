@@ -1,4 +1,4 @@
-﻿namespace CBSD.Seller.Infra.Data.Sql.Seller
+﻿namespace CBSD.Infra.Data.Sql.Seller
 {
 
     public class SellerConfig : IEntityTypeConfiguration<Core.Domain.Entities.Seller>

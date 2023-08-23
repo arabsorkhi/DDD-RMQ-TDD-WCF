@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\01.Core\CBSD.SellerContext.Core.Domain\CBSD.Seller.Core.Domain.csproj" />
+    <ProjectReference Include="..\CBSD.Seller.Infra.Data.Sql\CBSD.Infra.Data.Sql.csproj" />
   </ItemGroup>
 
 </Project>

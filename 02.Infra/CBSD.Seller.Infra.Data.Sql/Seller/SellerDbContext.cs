@@ -1,12 +1,11 @@
-﻿using CBSD.Seller.Core.Domain.UserProfileAgg.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace CBSD.Seller.Infra.Data.Sql.Seller
+namespace CBSD.Infra.Data.Sql.Seller
 {
     public class SellerDbContext:DbContext
     {
-        public DbSet<Core.Domain.SellerAgg.Entities.Seller> Seller { get; set; }
-        public DbSet<Core.Domain.UserProfileAgg.Entities.UserProfile> UserProfiles { get; set; }
+        public DbSet<CBSD.Seller.Core.Domain.SellerAgg.Entities.Seller> Seller { get; set; }
+        public DbSet<CBSD.Seller.Core.Domain.UserProfileAgg.Entities.UserProfile> UserProfiles { get; set; }
         public SellerDbContext(DbContextOptions dbContextOptions):base(dbContextOptions)  
         {
             
