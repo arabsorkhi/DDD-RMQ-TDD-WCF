@@ -5,6 +5,7 @@ using CBSD.Seller.Core.Domain.UserProfileAgg.Data;
 using CBSD.Seller.Infra.Data.Sql.Seller;
 using CBSD.Seller.Infra.Data.Sql.UserProfile;
 using Framework.Domain.Data;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,10 +25,16 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 //builder.Services.AddSingleton<ISellerRepository, InMemorySellerRepository>();
+builder.Services.AddScoped<ISellerQueryService,  DapperSellerQueryService>();
+builder.Services.AddScoped(c => new SqlConnection(builder.Configuration.GetConnectionString("SellerCnn")));
 builder.Services.AddScoped<IUserProfileRepository, EFUserProfileRepository>();
 builder.Services.AddScoped<ISellerRepository, EFSellerRepository>();
+
+
 builder.Services.AddScoped<IUnitOfWork , SellerUnitOfWork>();
-builder.Services.AddDbContext<SellerDbContext>(c => c.UseSqlServer(builder.Configuration .GetConnectionString("AddvertismentCnn")));
+builder.Services.AddDbContext<SellerDbContext>(c => c.UseSqlServer(builder.Configuration .GetConnectionString("SellerCnn")));
+
+
 builder.Services.AddScoped<CreateHandler>();
 builder.Services.AddScoped<SetPriceHandler>();
 builder.Services.AddScoped<SetProductHandler>();
