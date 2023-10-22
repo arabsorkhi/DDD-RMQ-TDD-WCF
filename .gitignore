@@ -32,3 +32,5 @@
 /02.Infra/CBSD.Infra.Data.EventSourcing/bin/Debug/net7.0
 /02.Infra/CBSD.Infra.Data.EventSourcing/obj/Debug/net7.0
 /02.Infra/CBSD.Infra.Data.EventSourcing/obj
+/Test/Seller/EdgeDriverTestSeller/bin/Debug/netcoreapp2.1
+/Test/Seller/EdgeDriverTestSeller/obj

@@ -17,4 +17,8 @@
     <ProjectReference Include="..\..\00.Framework\Framwork.Tools\CBSD.Framwork.Tools.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DomainService\" />
+  </ItemGroup>
+
 </Project>

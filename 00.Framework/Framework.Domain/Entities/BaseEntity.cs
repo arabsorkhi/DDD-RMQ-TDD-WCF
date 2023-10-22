@@ -28,6 +28,8 @@ namespace Framework.Domain.Entities
 
         }
         protected BaseEntity() { }
+
+        //subscriber handles events
         public void HandleEvent(IEvent @event)
         {
             SetStateByEvent(@event);

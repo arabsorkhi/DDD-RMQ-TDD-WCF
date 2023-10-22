@@ -1,5 +1,5 @@
 using CBSD.Core.ApplicationServices.Sellers.CommandHandlers;
-using CBSD.Seller.Core.Domain.SellerAgg.Commands;
+using CBSD.Seller.Core.Domain.DomainEvent.Commands;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CBSD.Seller.EndPoints.API.Controllers
