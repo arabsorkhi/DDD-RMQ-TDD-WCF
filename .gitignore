@@ -34,3 +34,10 @@
 /02.Infra/CBSD.Infra.Data.EventSourcing/obj
 /Test/Seller/EdgeDriverTestSeller/bin/Debug/netcoreapp2.1
 /Test/Seller/EdgeDriverTestSeller/obj
+/00.Framework/Framework.Domain/obj/Debug/net7.0/CBSD.Framework.Domain.pdb
+/00.Framework/Framework.Domain/obj/Debug/net7.0/CBSD.Framework.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/00.Framework/Framework.Domain/obj/Debug/net7.0/CBSD.Framework.Domain.dll
+/00.Framework/Framework.Domain/obj/Debug/net7.0/CBSD.Framework.Domain.csproj.FileListAbsolute.txt
+/00.Framework/Framework.Domain/obj/Debug/net7.0/CBSD.Framework.Domain.csproj.CoreCompileInputs.cache
+/00.Framework/Framework.Domain/obj/Debug/net7.0/refint/CBSD.Framework.Domain.dll
+/00.Framework/Framework.Domain/obj/Debug/net7.0/ref/CBSD.Framework.Domain.dll
