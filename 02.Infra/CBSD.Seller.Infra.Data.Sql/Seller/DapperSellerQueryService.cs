@@ -1,6 +1,6 @@
-﻿using CBSD.Seller.Core.Domain.SellerAgg.Data;
+﻿using CBSD.Seller.Core.Domain.DomainEvent.Queries;
+using CBSD.Seller.Core.Domain.SellerAgg.Data;
 using CBSD.Seller.Core.Domain.SellerAgg.DTO;
-using CBSD.Seller.Core.Domain.SellerAgg.Queries;
 using Dapper;
 using Microsoft.Data.SqlClient;
 

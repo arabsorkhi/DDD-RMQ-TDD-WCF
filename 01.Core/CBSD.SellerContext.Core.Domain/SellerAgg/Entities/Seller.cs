@@ -32,7 +32,10 @@ namespace CBSD.Seller.Core.Domain.SellerAgg.Entities
             HandleEvent(new SellerCreated { Id = id, Address = address.FullAddress, Name = sellerName.Value });
         }
 
-        //command->event
+        //query
+
+
+        //root:command->event
         public void SetPrice(Price price, Guid guid)
         {
 
@@ -56,6 +59,8 @@ namespace CBSD.Seller.Core.Domain.SellerAgg.Entities
         {
             //agg create entity instance
             var newProduct = new Product(HandleEvent);
+
+            //agg  create and publish event
             newProduct.HandleEvent(new ProductAdded
             {
                 Description = newProduct.Description,

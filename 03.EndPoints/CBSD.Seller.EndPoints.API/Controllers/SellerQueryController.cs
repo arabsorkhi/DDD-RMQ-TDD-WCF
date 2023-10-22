@@ -1,5 +1,5 @@
-﻿using CBSD.Seller.Core.Domain.SellerAgg.Data;
-using CBSD.Seller.Core.Domain.SellerAgg.Queries;
+﻿using CBSD.Seller.Core.Domain.DomainEvent.Queries;
+using CBSD.Seller.Core.Domain.SellerAgg.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CBSD.Seller.EndPoints.API.Controllers

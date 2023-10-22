@@ -1,5 +1,5 @@
-﻿using CBSD.Seller.Core.Domain.SellerAgg.DTO;
-using CBSD.Seller.Core.Domain.SellerAgg.Queries;
+﻿using CBSD.Seller.Core.Domain.DomainEvent.Queries;
+using CBSD.Seller.Core.Domain.SellerAgg.DTO;
 
 namespace CBSD.Seller.Core.Domain.SellerAgg.Data
 {
