@@ -33,7 +33,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SellerTest", "SellerTest", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EdgeDriverTestSeller", "Test\Seller\EdgeDriverTestSeller\EdgeDriverTestSeller.csproj", "{EB1C1662-34D8-4336-97C9-81C3F623C2C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xunitTest", "xunitTest\xunitTest.csproj", "{676CC564-2823-4E18-9669-261B27768869}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xunitTest", "xunitTest\xunitTest.csproj", "{676CC564-2823-4E18-9669-261B27768869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utility", "utility\utility.csproj", "{0DEC32C8-B5C5-47AF-A19C-EC36A1915A2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{676CC564-2823-4E18-9669-261B27768869}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{676CC564-2823-4E18-9669-261B27768869}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{676CC564-2823-4E18-9669-261B27768869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEC32C8-B5C5-47AF-A19C-EC36A1915A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEC32C8-B5C5-47AF-A19C-EC36A1915A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEC32C8-B5C5-47AF-A19C-EC36A1915A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEC32C8-B5C5-47AF-A19C-EC36A1915A2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
