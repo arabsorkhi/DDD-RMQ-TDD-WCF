@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CBSD.Seller.Core.Domain.SellerAgg.DTO
 {
-    public class SellerDetailDTO
+    //try to use the record keyword as much as I can. I often use
+    // it on Data Transfert Object (DTO) to carry data between layers because they must not
+    // mutate, and I can enforce immutability easily
+
+
+    public record SellerDetailDTO
     {
         
             public Guid SellerId { get; set; }
